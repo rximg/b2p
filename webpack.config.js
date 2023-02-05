@@ -5,6 +5,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.node$/,
+        use: 'node-loader',
+      },
+      {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
