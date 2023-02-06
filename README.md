@@ -6,7 +6,9 @@ This tool will make your experience with PowerShell more seamless, especially if
 Download the app from the [release page](https://github.com/rximg/b2p/releases/download/0.0.1/b2p.exe) and copy b2p.exe into the Windows folder in the system drive.
 
 ## Configure API Key
-To obtain the API key, visit the OpenAI official website. Then, set the API key in a JSON file named ".config" located in the user path.
+To obtain the API key, visit the OpenAI official website. Then, set the API key in a JSON file located in  %USERPROFILE%\\.psgpt.
+
+```{"apiKey":"your api key"}```
 
 ## Usage:
 Use the repository as follows:
