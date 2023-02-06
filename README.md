@@ -3,7 +3,7 @@ With our advanced natural language understanding capabilities, we have designed 
 This tool will make your experience with PowerShell more seamless, especially if you are already familiar with Linux and find the PowerShell commands challenging to recall.
 
 ## Download
-Download the app from the release page and copy b2p.exe into the Windows folder in the system drive.
+Download the app from the [release page](https://github.com/rximg/b2p/releases/download/0.0.1/b2p.exe) and copy b2p.exe into the Windows folder in the system drive.
 
 ## Configure API Key
 To obtain the API key, visit the OpenAI official website. Then, set the API key in a JSON file named ".config" located in the user path.
@@ -17,6 +17,7 @@ You can also wrap the command with  if there are characters in the command that 
 
 ```b2p 'ls *.jpg  | wc'```
 
+![Usage Example](doc/usage.png)
 ## Development
 #### package
 ```npx webpack```
