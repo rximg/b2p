@@ -1,6 +1,6 @@
 import { ChatGPTAPI } from 'chatgpt'
-import child_process  from 'child_process'
-import * as robot from 'robotjs'
+// import child_process  from 'child_process'
+// import * as robot from 'robotjs'
 import * as fs from 'fs';
 import * as os from 'os';
 // import * as  keySender from "node-key-sender"
@@ -48,7 +48,7 @@ async function main() {
     promptPrefix: preprompt
   })
   console.log(res.text)
-  robot.typeString(res.text)
+  // robot.typeString(res.text)
 
 }
 
